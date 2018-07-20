@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+}
+div{width: 1330px;
+  margin: 15px auto;
+  text-align: center;
+  outline: 2px dashed #000099;
+  }
+    .cabecera{ background:-webkit-radial-gradient(center,ellipse,yellow,blue 50%,green,yellow);
+    text-align: center;
+    border-radius: 20px;
+    transition: ease-in-out;}
+    header.cabecera>h1{ font-size: 14mm;
+      text-shadow: red 3px 3px 4px;}
+      nav{ background: green;
+      padding: 5px;
+      text-align: right;
+      border-radius: 20px 10px 30px 50px;
+      transform: rotate(-1deg);}
+        nav>ul{ color: white}
+          li{ display: inline-block;
+            padding: 10px;
+            font: bold 14px verdana;
+            border-radius: 15px;
+            box-shadow: aqua 5px 3px 5px;
+            background: -webkit-linear-gradient(top, blue, red);}
+          li:hover{ transform: rotate(5deg);
+            transform: scale(1.4);}
+    section{ float: left; 
+      width: 1000px;
+      margin: 10px;
+      background:blueviolet;}
+    video{ width: 680px;}
+      article{ background: mediumslateblue;}
+      .musica{ background: magenta;}
+    aside{ float: left;
+      background: aqua;
+      width: 270px;
+      border-radius: 20px / 10px;
+      margin: 10px;}
+    footer{ clear: both; 
+      text-align: center;
+      }
+img:hover{ transform: scale(1.5);}
+  
+p{
+  color:black; 
+  font-size: 20px;  
+}
+.rojo{ color: red;}
+#pid{font-size: 10mm;
+color: green;}
+nav>ul{ color: white}
+:not(nav){ margin: 2px;}
+h1{font: bold 20px verdana;
+color: blue;}
+h2{color: blue;}
+.titulo{color: black;}
